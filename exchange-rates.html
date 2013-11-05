@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+		<meta name="robots" content="index, follow">
+		<meta name="keywords" content="exchange rates">
+		<meta name="description" content="Padma's AJAX API project on Exchange rates">
+		<link type="text/css" rel="stylesheet" href="exchange-rates.css"/>
+		<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+		<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.js"><\/script>')</script>
+		<script src="js/exchange-rates-api.js"></script>	
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+		<![endif]-->
+		<title>Exchange Rates from Open Exchange</title>
+		
+    </head>
+	<body>
+		<h1>Currency Exchange Rates</h1>
+
+		<p><strong>All exchange rates have a 1 hour delay</strong></p>
+
+		<div>
+		<form action="" method="POST">
+		  <label id="Base currency:"></label>			
+			<select id="base-currency" name="base-currency" class="currencies">
+			  			  
+			</select>
+			<select id="exchange-currency" name="exchange-currency" class="currencies">			  
+			  		  
+			</select>
+		  <button id="submit">Get Exchange Rate</button>
+		</form>
+		</div>
+
+		
+	</body>
+</html>
+
