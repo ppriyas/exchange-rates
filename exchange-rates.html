@@ -18,17 +18,21 @@
 	<body>
 		<h1>Currency Exchange Rates</h1>
 
-		<p><strong>All exchange rates have a 1 hour delay</strong></p>
+		<p><strong>All exchange rates have a 1 hour delay</strong></p><br/>
 
 		<div>
 		<form action="" method="POST">
-		  <label id="Base currency:"></label>			
+			<label id="base_label">Base Currency: </label>			
 			<select id="base-currency" name="base-currency" class="currencies">
 			  			  
-			</select>
+			</select><p/><br/>
+			<label id="amount_label">Amount of Base Currency: </label>	
+			<input id="amount"/><p/><br/><br/>
+			
+			<label id="exchange_label">Exchange Currency: </label>
 			<select id="exchange-currency" name="exchange-currency" class="currencies">			  
 			  		  
-			</select>
+			</select><p/>
 		  <button id="submit">Get Exchange Rate</button>
 		</form>
 		</div>
