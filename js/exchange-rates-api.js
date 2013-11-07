@@ -63,7 +63,4 @@ $(function(){
 	});
 
 });
-//round the decimals: toFixed(NUMBER of DECIMALS); (finalRate = finalRate.toFixed(2);)
-//1 base currency = 'x' exchange currency
-//amount of base currency = "Y" exchange currency
-//default USD
+
