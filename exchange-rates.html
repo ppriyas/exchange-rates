@@ -22,17 +22,21 @@
 
 		<div>
 		<form action="" method="POST">
+		<div class="fieldset">
 			<label id="base_label">Base Currency: </label>			
 			<select id="base-currency" name="base-currency" class="currencies">
-			  			  
-			</select><p><br>
-			<label id="amount_label">Amount of Base Currency: </label>	
-			<input id="amount"/><p><br><br>
+			</select>
+		</div>
+		<div class="fieldset">
 			
+			<label id="amount_label">Amount of Base Currency: </label>	
+			<input id="amount"/>
+		</div>
+		<div class="fieldset">	
 			<label id="exchange_label">Exchange Currency: </label>
-			<select id="exchange-currency" name="exchange-currency" class="currencies">			  
-			  		  
-			</select><p>
+			<select id="exchange-currency" name="exchange-currency" class="currencies">					  		  
+			</select>
+		</div>
 		  <button id="submit">Get Exchange Rate</button>
 		</form>
 		</div>
